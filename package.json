@@ -1,0 +1,13 @@
+{
+  "name": "smooth_axis",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-watch": "npx tsc --watch",
+    "beautify": "npx js-beautify --replace src/**/*",
+    "beautify-watch": "npx nodemon --exec npm run-script beautify"
+  },
+  "author": "Maix",
+  "license": "WTFPL",
+  "files": ["src/"]
+}
